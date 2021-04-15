@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --background: #bdc3c7;
+  --mainText: #000000;
+}
+
+table, #excel-worksheet {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background);
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.fa {
+  color: var(--mainText);
+}
+
+.prod-container {
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  padding: 15px;
+}
+
+li button {
+  border: none;
+  background-color: transparent;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+ul > li:first-child {
+  flex-basis: 20%;
+}
+
+#sel-current {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+ul > li:last-child {
+  flex-basis: 80%;
+}
+
+#main-form {
+  display: flex;
+  gap: 0;
+}
+
+.icon-btn {
+  flex-basis: 5%;
+  padding: 0;
+  margin: 0;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+  border-radius: 2px;
+}
+
+.icon-btn:not(:nth-of-type(3)) {
+  margin-right: 5px;
+}
+
+.icon-btn:first-child {
+  margin-left: 5px;
+}
+
+#main-form > span {
+  flex-basis: 95%;
+}
+
+#input-formula {
+  width: 100%;
+}
+
+table,
+td input {
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  width: 30px;
+}
+
+th:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+td {
+  padding: 0;
+}
+
+td:not(:first-child):not(:last-child) {
+  border: 1px solid black;
+}
+
+td input {
+  height: 100%;
+  border: none;
+}
+
+td:first-child,
+td:last-child {
+  font-weight: bold;
+  border-top: 1px solid black;
+}
+
+td,
+th, input {
+  color: var(--mainText);
+  margin: 0;
+  padding: 0;
+}
+
+input:focus {
+    border-radius: none !important;
+}
+
+p {
+  margin: 0;
+}
