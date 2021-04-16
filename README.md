@@ -3,6 +3,8 @@ Partial Excel web version developed with a couple of functions and basic grid
 
 URL to view live example: https://korn1k.github.io/excel_project_2020/
 
+NOTE: includes the following functions: =SUM(A1:A2), =SUM(A1+A2), =SUM(A1/A2), =SUM(A1*A2), =SUM(A1-A2)
+
 INSTALLATION ON YOUR LOCAL PC:
 
 1. Clone the repo
