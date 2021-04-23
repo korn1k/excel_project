@@ -1,7 +1,7 @@
 # excel_project_2020
-Partial Excel web version developed with a couple of functions and basic grid
+Partial Excel is a web application that imitates the behaviour of the original well-known version; it includes a couple of basic/main functions of Excel. You can input some data and calculate it for your grid views
 
-URL to view live example: https://korn1k.github.io/excel_project_2020/
+URL to view live example: https://korn1k.github.io/excel_project_2020/ (Adequate Mobile View included)
 
 NOTE: includes the following functions: =SUM(A1:A2), =SUM(A1+A2), =SUM(A1/A2), =SUM(A1*A2), =SUM(A1-A2)
 
